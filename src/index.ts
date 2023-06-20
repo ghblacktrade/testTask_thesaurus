@@ -25,10 +25,10 @@ app.post('/', async (req: Request, res: Response) => {
 })
 
 
-app.get('/', (req: Request, res: Response) => {
+// app.get('/', (req: Request, res: Response) => {
 
-    res.send('hi, my test thesaurus')
-})
+//     res.send('hi, my test thesaurus')
+// })
 
 
 app.listen(port, () => {
